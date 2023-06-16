@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD ROOSTER</title>
+
+    <!--font wasome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!--load all Font Awesome styles -->
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    
+    <!---->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!---->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <nav class="navbar" id="myNavbar">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#porcoes"> Porções</a>
+            <a href="#bebidas"> Bebidas</a>
+            <a href="#burguers"> Burguers</a>
+            <a href="#pedidos">Pedidos</a>
+            <a href="#contato"> Contato</a>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+        
+        </nav>
+    </header>
+
+    <section class="login">
+
+        <div id="id01" class="modal">
+    
+            <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="image/B5.jpg" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+        
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                <button type="submit" class="submitbnt">Login</button>
+
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="home" id="home">
+        
+        <div class="container">
+            <div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li class="item1 active"></li>
+                    <li class="item2"></li>
+                    <li class="item3"></li>
+                    <li class="item4"></li>
+                  </ol>
+                <br>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+            
+                    <div class="item active">
+                        <div class="carousel-caption">
+                            <h3>Burguer Max</h3>
+                        </div>
+                        <img src="image/B6.jpg" alt="" width="460" height="345">
+                    </div>
+            
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <h3>Burguel Mil</h3>
+                        </div>
+                    <img src="image/B7.jpg" alt="Chania" width="460" height="345">
+                    </div>
+                
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <h3>Burguer X</h3>
+                        </div>
+                    <img src="image/B3.jpg" alt="Flower" width="460" height="345">
+                    </div>
+            
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <h3>Super Burguer</h3>
+                        </div>
+                    <img src="image/B8.jpg" alt="Flower" width="460" height="345">
+                    </div>
+                
+                </div>
+          
+    
+             <!-- <a class="left carousel-control" href="#myCarousel" role="button">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div> -->
+          
+
+
+    </section>
+
+    <section class="porcoes" id="porcoes">
+
+        <div class="container">
+            <div class="box">
+                <h3>Porção 1</h3>
+                <img src="image/p1.jpg" alt="p1">
+                <h3>R$15,00</h3>
+            </div>
+        
+            <div class="box">
+                <h3>Porção 2</h3>
+                <img src="image/p2.jpg" alt="p8">
+                <h3>R$15,00</h3>
+            </div>           
+            
+            <div class="box">
+                <h3>Porção 3</h3>
+                <img src="image/p3.jpg" alt="p8">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Porção 4</h3>
+                <img src="image/p4.jpg" alt="p8">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Porção 5</h3>
+                <img src="image/p5.jpg" alt="p8">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Porção 6</h3>
+                <img src="image/p6.jpg" alt="p8">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Porção 7</h3>
+                <img src="image/p7.jpg" alt="p8">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Porção 8</h3>
+                <img src="image/p8.jpg" alt="p8">
+                <h3>R$15,00</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="bebidas" id="bebidas">
+        
+        <div class="container">
+            
+            <div class="box">
+                <h3>Coca-cola 2L</h3>
+                <img src="image/C2L.jpg" alt="">
+                <h3>R$10,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Coca-cola 600ml</h3>
+                <img src="image/C600.jpg" alt="">
+                <h3>R$7,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Coca-cola Lata</h3>
+                <img src="image/Cl.jpg" alt="">
+                <h3>R$5,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Cerveja Heineken</h3>
+                <img src="image/H.jpg" alt="">
+                <h3>R$5,79</h3>
+            </div>
+
+            <div class="box">
+                <h3>Pepsi Lata</h3>
+                <img src="image/Pe.jpg" alt="">
+                <h3>R$5,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Pepsi Zero</h3>
+                <img src="image/Pz.jpg" alt="">
+                <h3>R$5,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Pepsi 2L</h3>
+                <img src="image/P2L.jpg" alt="">
+                <h3>R$10,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Cerveja Budwaiser</h3>
+                <img src="image/B.jpg" alt="">
+                <h3>R$6,30</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="burguers" id="burguers">
+
+        <div class="container">
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B1.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B2.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B3.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B4.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B5.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B6.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B7.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+            <div class="box">
+                <h3>Burguer Mil</h3>
+                <img src="image/B8.jpg" alt="">
+                <h3>R$15,00</h3>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="pedidos" id="pedidos">
+
+        <div class="row">
+
+            <div class="col-25">
+                <div class="container">
+                  <h4>Carrinho <span class="price" style="color:#fff"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+                  <p><a href="#">Burguer Mil</a> <span class="price">R$15,00</span></p>
+                  <p><a href="#">Burguer Max</a> <span class="price">R$15,00</span></p>
+                  <p><a href="#">Burguer X</a> <span class="price">R$15,00</span></p>
+                  <p><a href="#">Burguer Super</a> <span class="price">R$20,00</span></p>
+                  <hr>
+                  <p>Total <span class="price" style="color:#fff"><b>R$65,00</b></span></p>
+                </div>
+              </div>
+
+            <div class="col-75">
+              <div class="container">
+                <form action="/action_page.php">
+                
+                  <div class="row">
+                    <div class="col-50">
+                      <h3>Cadastro</h3>
+                      <label for="fname"><i class="fa fa-user"></i> Nome completo</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Nome completo">
+                      <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                      <input type="text" id="email" name="email" placeholder="foodrooster@foodrooster">
+                      <label for="adr"><i class="fa fa-address-card-o"></i> Endereço</label>
+                      <input type="text" id="adr" name="address" placeholder="Rua do burguer, n°100 - food rooster">
+                      <label for="city"><i class="fa fa-institution"></i> Cidade</label>
+                      <input type="text" id="city" name="city" placeholder="Food">
+                      <label for="zip">CEP</label>
+                      <input type="text" id="zip" name="zip" placeholder="03445-020">
+                      
+                        <h3>Pagamento</h3>
+                      <label for="fname">Bandeiras</label>
+                      <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                      </div>
+                      <label for="cname">Nome no Cartão</label>
+                      <input type="text" id="cname" name="cardname" placeholder="Burguer mil">
+                      <label for="ccnum">Número do cartão</label>
+                      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                      <label for="expmonth">Mês de validade</label>
+                      <input type="text" id="expmonth" name="expmonth" placeholder="Agosto de Deus">
+                      <label for="expyear">Ano de validade</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2023">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                        </div>
+                      </div>
+                    
+                  <label>
+                    <input type="checkbox" checked="checked" name="sameadr"> Endereço de entrega
+                  </label>
+                  <input type="submit" value="Continue" class="btn">
+                </form>
+              </div>
+            </div>
+          </div>
+          
+
+
+
+    </section>
+
+    <section class="contato" id="contato">
+
+        <div class="container">
+        
+            <h2>Entre em contato</h2>
+
+        <form>
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lemail">E-mail:</label><br>
+            <input type="email" id="lemail" name="lemail" value=""><br>
+            <label for="ltel">Comentário:</label><br>
+            <textarea name="comentario" id="Icomt" cols="30" rows="10"></textarea>
+            </p>
+        </form>
+    </div>
+    
+    </section>
+
+
+<script src="Js/script/Js"></script>
+
+</body>
+</html>

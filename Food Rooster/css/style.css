@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+  width: 0rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+.header{
+    background: #FFFFFF;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+  .navbar{
+    overflow: hidden;
+    display: block;
+    top: 10px;
+
+  }
+  
+  .navbar a{
+    float: left;
+    align-items: baseline;
+    display: block;
+    color: #292c0b;
+    text-align: justify;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 30px;
+    word-spacing: 3rem;
+    padding-left: 4.2rem;
+  }
+  
+  .navbar button:hover{
+    background-color: #797E3E;
+    color: #fff;
+  }
+
+  .navbar a:hover{
+    background-color: #797E3E;
+    color: #fff;
+  }
+  
+  .navbar a{
+    background-color: #fff;
+    color: #292c0b;
+  }
+  
+  .navbar .icon{
+    display: none;
+  }
+
+  .home{
+    background-color: #797E3E;
+  }
+
+  .carousel-inner .item img {
+    width: 525px;
+    height: 525px;
+    background-color: #797E3E;
+    margin: auto;
+  }
+
+  .carousel-inner .item .carousel-caption h3{
+  text-align: center;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 39px;  
+  box-shadow: #292c0b;
+  }
+
+.porcoes{
+  background-color: #fff;
+}
+
+.porcoes img{
+  border-radius: 200px;
+  width: 278px;
+  height: 268px;
+  margin: 3px;
+}
+
+.porcoes .box{
+  margin-left: 3.9rem;
+  float: left;
+  margin-top: 55px;
+}
+
+.porcoes h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  color: #292c0b;
+}
+
+.bebidas{
+  background-color: #797E3E;
+}
+
+.bebidas img{
+  border-radius: 200px;
+  width: 278px;
+  height: 268px;
+  margin: 3px;
+}
+
+.bebidas .box{
+  margin-left: 3.9rem;
+  float: left;
+  margin-top: 55px;
+}
+
+.bebidas h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+.burguers{
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 17rem;
+}
+
+.burguers .container{
+  align-items: center;
+  width: 100%;
+}
+.burguers img{
+  border-radius: 200px;
+  width: 278px;
+  height: 268px;
+  margin: 3px;
+}
+
+.burguers .box{
+  margin-left: 3.9rem;
+  float: left;
+  margin-top: 55px;
+}
+
+.burguers h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  color: #292c0b;
+}
+
+
+.contato{
+  background: #fff;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 17rem;
+}
+
+.contato .container{
+  border-radius: 3px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 17rem;;
+}
+
+.contato h2{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5rem;
+  color: #292c0b;
+  margin-top: 55px;
+}
+
+
+
+.contato form{
+  margin-left: 31.5rem;
+  font-family: 'Inter';
+  font-style: normal;
+  background-color: #797E3E;
+  width: 70rem;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+
+.contato form label{
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;  
+  padding: 1rem 1rem;
+  font-size: 2rem;
+}
+
+
+.contato form input{
+  font-weight: 800;
+  color: #292c0b;
+  font-family: 'Inter';
+  font-style: normal;
+  padding: 0.3rem 10rem;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 60rem;
+}
+
+.contato form textarea{
+  color: #292c0b;
+  width: 60rem;
+  font-size: 1.5rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+}
+
+.contato .container form p input{
+  text-align: left;
+  padding: 10rem ;
+  font-size: 1.5rem;
+  
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 0px 0px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  border: none;
+  float: left;
+  align-items: baseline;
+  display: block;
+  color: #292c0b;
+  text-align: justify;
+  padding: 10px 45px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 30px;
+  word-spacing: 3rem;
+  padding-left: 4.2rem;
+}
+
+button{
+  background-color: #fff;
+  color: #292c0b;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.submitbnt{
+  color: #fff;
+  background-color: #797E3E;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 0px 0px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  width: auto;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #fff;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 1px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 55px;
+}
+
+.pedidos{
+  background: #fff;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 17rem;
+}
+
+.pedidos .container {
+  background-color: #797E3E;
+  padding: 16px;
+  border: 1px solid #292c0b;
+  border-radius: 3px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 17rem;
+}
+
+.pedidos input[type=text] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: none;
+  color: #292c0b;
+}
+
+.pedidos label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.pedidos .icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.pedidos .btn {
+  background-color: #fff;
+  color: #292c0b;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.pedidos .btn:hover {
+  background-color: #f3f15d;
+  color: #fff;
+}
+
+.pedidos form input,
+.pedidos form label{
+  color: #fff;
+}
+
+.pedidos a,
+.pedidos h3, h4, p{
+  color: #fff;
+}
+
+.pedidos hr {
+  border: 1px solid #fff;
+}
+
+.pedidos span.price {
+  float: right;
+  color: #fff;
+}
+
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 1100px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 1100px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .header :not(:first-child) {display: none;}
+  .header .icon {
+    float:left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: justify;
+  }
+  .navbar.responsive button{
+    float: none;
+    display: block;
+    text-align: justify;
+  }
+}  
